@@ -2,6 +2,11 @@
 Changelog for package ros_image_to_qimage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.1 (2022-07-21)
+------------------
+* Fix readme
+* Contributors: Kenji Brameld
+
 0.1.0 (2022-06-15)
 ------------------
 * update readme
