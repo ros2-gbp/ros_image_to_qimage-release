@@ -1,0 +1,42 @@
+ros-rolling-ros-image-to-qimage (0.4.1-3bookworm) bookworm; urgency=high
+
+  * Change #include cv_bridge.h to cv_bridge.hpp in ros_image_to_qimage.hpp (#27 <https://github.com/ros-sports/ros_image_to_qimage/issues/27>, #28 <https://github.com/ros-sports/ros_image_to_qimage/issues/28>)
+  * Change python_qt_binding from exec_depend to depend, because it is being used in CMakeLists.txt. (#25 <https://github.com/ros-sports/ros_image_to_qimage/issues/25>)
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 29 Sep 2022 00:00:00 -0000
+
+ros-rolling-ros-image-to-qimage (0.4.0-3bookworm) bookworm; urgency=high
+
+  * Ensure bgr8 gets converted to rgb8 (#21 <https://github.com/ros-sports/ros_image_to_qimage/issues/21>)
+  * Add functionality to convert mono colors too (#18 <https://github.com/ros-sports/ros_image_to_qimage/issues/18>)
+  * Add tests for cpp (#13 <https://github.com/ros-sports/ros_image_to_qimage/issues/13>)
+  * Add python API (#5 <https://github.com/ros-sports/ros_image_to_qimage/issues/5>)
+  * Fix README.md (#4 <https://github.com/ros-sports/ros_image_to_qimage/issues/4>)
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Mon, 26 Sep 2022 00:00:00 -0000
+
+ros-rolling-ros-image-to-qimage (0.3.0-3bookworm) bookworm; urgency=high
+
+  * update readme
+  * update ci
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Wed, 15 Jun 2022 00:00:00 -0000
+
+ros-rolling-ros-image-to-qimage (0.0.2-3bookworm) bookworm; urgency=high
+
+  * fill package.xml with correct description and license tag
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 07 Jan 2022 00:00:00 -0000
+
+ros-rolling-ros-image-to-qimage (0.0.1-3bookworm) bookworm; urgency=high
+
+  * implemented ros_image_to_qimage package
+  * Contributors: Kenji Brameld, ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 06 Jan 2022 00:00:00 -0000
+
+
