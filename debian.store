@@ -1,1 +1,1 @@
-{"base": "ba8b6f3", "parent": "debian/rolling/ros_image_to_qimage", "previous": "7c3117a", "trim": "", "trimbase": ""}
+{"base": "08ee8d6daa1a", "parent": "debian/kilted/ros_image_to_qimage", "previous": "fb609472324d", "trim": "", "trimbase": ""}
